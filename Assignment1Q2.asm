@@ -1,3 +1,4 @@
+#Main function for SPIM Execution
 main:
 addi $t0, $zero, 3  # int t0 = 3;
 addi $t1, $zero, 7  # int t1 = 7;

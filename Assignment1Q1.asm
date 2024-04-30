@@ -1,8 +1,10 @@
+# Setting up the environment
 .data
 A: .word 1, 2, 3, 4, 5, 6, 7, 8, 9, 10  # Array A
-B: .word 0, -1, 2, -3, 4                 # Array B
+B: .word 0, -1, 5, -3, 4                 # Array B
 
 .text
+# Main function for SPIM Execution
 .globl main
 main:
     la $a0, A    # Load base address of A into $a0
